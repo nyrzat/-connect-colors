@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #fff;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0  auto;
+    padding: 0 15px;
+}
+.main-block{
+    background-image: url(../img/main-pic.png);
+    background-size: cover;
+    text-transform: uppercase;
+    background-color: #F74C55;
+    color: #fff;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    max-width: 100px;
+}
+.menu{
+    display: flex;
+}
+.items{
+    padding: 10px;
+}
+.btn{
+    border: 1px solid rgb(250, 255, 255);
+    display: inline-block;
+    border-radius: 14px;
+    padding: 15px 20px;
+}
+.card{
+    width: 50%;
+    margin-left: 60%;
+    padding: 20% 0;
+}
+.text-1{
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.text{
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+.card-img{
+    display: inline-block;
+    background: no-repeat repeat-x 0 100%;
+    margin-bottom: 111px;
+}
+.block{
+    background-color: green;
+}
+.main-card{
+    display: flex;
+    color: #fff;
+}
+.main-row{
+    width: 33.3333%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 42px;
+}
+.main-roww2{
+    background-color: #F74C55;
+}
+.card-text{
+    position: relative;
+    padding-left: 49px;
+    font-size: 22px;
+    margin-bottom: 34px;
+
+}
+.card-text::before{
+    content: "";
+    width: 39px; 
+    height: 40px;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    background-repeat: no-repeat;
+}
+.card-img1::before{
+    background-image: url(../img/icon-1\ 1.png);
+    top: -11px;
+}
+.card-img2::before{
+    background-image: url(../img/icon-2\ 1.png);
+    top: -8px;
+}
+.card-img3::before{
+    background-image: url(../img/icon-3\ 1.png)
+}
+.card-btn{
+    padding: 8px 10px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 28px;
+    background: rgba(0, 0, 0, 0.384);
+}
+.footer-block{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+.footer-block-container{
+    background-image: url(../img/music-img.png);
+    background-color: rgba(0, 0, 0, 0.623);
+    background-blend-mode: multiply;
+    padding: 10% 0;
+ 
+}
+.p-text{
+    margin-bottom: 39px;
+}
+.footer-btn{
+    font-size: 24px;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    padding: 7px 20px;
+}
+.footer{
+    background-image: url(../img/footer-line.png);
+    background-repeat: repeat-x;
+    background-position: 100% 0;
+    padding: 26px;
+    text-align: center;
+    font-size: 22px;
+    color: #949494;
+}
